@@ -1,0 +1,21 @@
+1. install xampp,php,mysql
+2. goto xamp folder search 'htdocs'
+3. clone repository in that folder
+4. search for camp control panel run appache server , sql server
+5. open browser
+6. localhost/phpmyadmin
+7. create a db named 'accounts'
+8. run following code (without quotes)
+
+"CREATE TABLE users (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);"
+
+9.then run (without quotes and change folder name accordingly e.g farm-care-website-main )
+" localhost/folder_name/signup.php"
+ 
+10. add a user then goto login page and then u will be able to access the site
+
