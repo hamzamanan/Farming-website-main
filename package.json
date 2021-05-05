@@ -1,0 +1,14 @@
+{
+  "name": "farming-website-main",
+  "version": "1.0.0",
+  "description": "A website with information about various crops, Fruits &amp; Equipment.  # Home Page  ![](images/index-pg.png) # Crop's Information Page ![](images/wht-pg.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^8.4.3"
+  }
+}
