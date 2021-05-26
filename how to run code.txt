@@ -1,7 +1,7 @@
 1. install xampp,php,mysql
 2. goto xamp folder search 'htdocs'
 3. clone repository in that folder
-4. search for camp control panel run appache server , sql server
+4. search for xamp control panel run appache server , sql server
 5. open browser
 6. localhost/phpmyadmin
 7. create a db named 'accounts'
