@@ -99,9 +99,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         .wrapper{ width: 350px; padding: 20px; }
     </style>
 </head>
-<body>
+<body style="background-image: url('images/farm.jpg');background-repeat: no-repeat;
+  background-size: cover; margin-left: 35%;  ";>
     <div class="wrapper">
-        <h2>Login</h2>
+        <h1 style="Font-weight: bold;">Login</h2>
         <p>Please fill in your credentials to login.</p>
 
         <?php 
