@@ -16,6 +16,42 @@
 </head>
 
 <body>
+
+
+   <script>!(function () {
+      let e = document.createElement("script"),
+        t = document.head || document.getElementsByTagName("head")[0];
+      (e.src =
+        "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.0/lib/index.js"),
+        (e.async = !0),
+        (e.onload = () => {
+          window.WebChat.default(
+            {
+              initPayload: '/greet',
+              title: 'Farming Assistant',
+              customData: { language: "en" },
+              inputTextFieldHint: 'Type a message...',
+              connectingText: 'Waiting for server...',
+              fullScreenMode: false,
+              autoClearCache: true,
+              socketUrl: "http://localhost:5005",
+              showCloseButton: true,
+              params: {
+                 images: {
+                    dims: {
+                       width:300,
+                       height:200,
+                    }
+                 }
+              },
+            },
+            null
+          );
+        }),
+        t.insertBefore(e, t.firstChild);
+    })();
+    </script>
+
    <!-- Navigation -->
        <!-- Navigation -->
        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
@@ -322,3 +358,4 @@
 </body>
 
 </html>
+   
